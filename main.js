@@ -1,3 +1,1 @@
-<script language="javascript">
-    document.location = "http://www.baidu.com";
-</script>
+document.location = "http://www.baidu.com";
