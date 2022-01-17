@@ -1,0 +1,36 @@
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.skip {
+    color: rgb(0, 195, 255);
+    text-decoration: none;
+    font: 20px 'Microsoft YaHei';
+}
+
+.info {
+    color: orangered;
+    font: 19px '';
+    text-decoration: none;
+}
+
+.link {
+    color: rgb(156, 0, 196);
+}
+
+.big {
+    text-decoration: none;
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+}
