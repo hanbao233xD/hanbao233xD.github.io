@@ -6,23 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .tab {
+            display: block;
+            height: 40px;
+            width: 230px;
+            background-color: rgb(241, 242, 243);
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+        .block>p {
+            width: 264px;
+            text-indent: 100px;
+        }
+        
+        a:hover {
+            background-color: rgb(0, 174, 236);
+        }
+        
+        div {
+            text-indent: 2em;
+        }
+    </style>
 </head>
-<style>
-    .nav>a {
-        color: red;
-    }
-</style>
 
 <body>
-    <div class="nav">
-        <a href="https://baidu.com">baidu</a><br>
-        <p>
-            <a href="https://mini1.cn">mini1.cn</a>
-        </p>
-    </div>
-    <div>
-        <a href="https://bilibili.com">bilibili</a>
-    </div>
+    <a href="phone" class="tab">
+        <div>手机</div>
+    </a>
+    <a href="tv" class="tab">
+        <div>电视 机顶盒</div>
+    </a>
+    <a href="pad" class="tab">
+        <div>平板</div>
+    </a>
+    <a href="wear" class="tab">
+        <div>穿戴</div>
+    </a>
 </body>
 
 </html>
