@@ -1,0 +1,3 @@
+[submodule "themes/void"]
+	path = themes/void
+	url = https://github.com/Daucloud/hugo-theme-void
